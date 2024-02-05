@@ -1,4 +1,4 @@
-import React, { useContext, useState, useReducer } from "react";
+import React, { useContext, useState } from "react";
 import { CiCalculator2 } from "react-icons/ci";
 import ThemeContext from "../context/ThemeContext";
 

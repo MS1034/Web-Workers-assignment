@@ -79,18 +79,6 @@ export default () => {
     );
   }
 
-  function calculateWordFrequency(paragraph, tWord) {
-    const words = paragraph.split(/\s+/);
-
-    let count = 0;
-    words.forEach((word) => {
-      word = word.toLowerCase();
-      if (tWord.toLowerCase() === word) {
-        count++;
-      }
-    });
-    return count++;
-  }
   function calculateAlphabetFrequency(paragraph) {
     const cleanedParagraph = paragraph.replace(/[^a-zA-Z]/g, "").toLowerCase();
 
