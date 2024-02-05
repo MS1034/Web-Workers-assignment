@@ -11,7 +11,7 @@
 ### Project Description:
 This application showcases the effective use of web workers. A `longText` variable containing the content of ten extensive Wikipedia articles. Users have the flexibility to adjust the repetition count and enable/disable the use of web workers, allowing them to observe performance differences. The default repetition is set to 100 times the `longText`. To view the results, click "Calculate."
 
-![image-20240205192653683](C:\Users\Subhan\AppData\Roaming\Typora\typora-user-images\image-20240205192653683.png)
+![image.png](https://github.com/MS1034/Web-Workers-assignment/blob/master/image.png?raw=true)
 
 ### Running the Project:
 1. **Clone the Repository:**
